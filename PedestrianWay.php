@@ -9,7 +9,7 @@ final class MotorWay extends HighWay
     public function addVehicle(Vehicle $vehicle)
     {
         if (($vehicle instanceof Bike) || ($vehicle instanceof Skateboard)){
-            $currentVehicles[] = $vehicle;
+            $this->currentVehicles[] = $vehicle;
         }
     }
 }
